@@ -1,0 +1,23 @@
+/* jogo em tablet */
+@media (max-width: 758px){
+    main{
+        width: 500px;
+        height: 1200px;
+     
+    }
+     
+   main 
+   .estrutura_da_pagina{
+    display: flex;
+    flex-direction: column;
+
+   }
+
+   body{
+    height: 1300px;
+   }
+    
+   .linha{
+    display: none;
+   }
+ } 

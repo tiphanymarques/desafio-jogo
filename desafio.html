@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO</title>
+    <link rel="stylesheet" href="desafio.CSS">
+    <link rel="stylesheet" href="jogotablet.CSS">
+    <link rel="stylesheet" href="jogocelular.CSS">
+    
+
+</head>
+
+<body>
+
+
+    <main>
+        <div class="logo">
+            <h1>O JOGO</h1>
+        </div>
+
+        <div class="estrutura_da_pagina">
+            <section class="parte_lado1">
+                    <img src="./src.img/image 1.png">
+
+                    <div class="primeiraparte">
+                        <label for="Nick">Nick: </label>
+                        <br>
+                        <br>
+                        <input type="text" id="Nick">
+                        <br>
+                        <br>
+                </div>
+
+
+            <div class="segundaparte">
+                <form>
+                    <label for="nivel">Intervalo:</label>
+                    <br>
+                    <br>
+                    <select name="escholha_dificuldade" id="nivel">
+                        <option value="1">Opção 1: 1 a 10</option>
+                        <option value="2">Opção 2: 1 a 100</option>
+                        <option value="3">Opção 3: 1 a 200</option>
+                    </select>
+
+                </form>
+
+                <br>
+                <br>
+            </div>
+
+            <button onclick="troca_dificuldade()" class="primeirobotão">COMEÇAR</button>
+            </section>
+
+          <div class="linha"></div>
+
+            <br>
+            <br>
+
+
+         <section class="parte_lado2">
+            <div class="texto">
+
+                <br>
+                <br>
+            </div>
+                <br>
+                <br>
+
+            <label class="digite_numero" for="numero">Digite um numero: </label>
+            <input class="quadra_do_numero" type="text" id="numero">
+
+            <br>
+            <br>
+
+            <button onclick="jogar()" class="segundobotão">JOGAR</button>
+
+             <div class="ultima_parte">
+                    <p class="texto1">
+                        <span>A tentativa foi maior do que o número! </span>
+                    </p>
+
+                    <p class="texto2">
+                        Você ainda tem 2 tentativas!
+                    </p>
+                </div>
+         </section>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="desafio.js"></script>
+
+</body>
+
+</html>

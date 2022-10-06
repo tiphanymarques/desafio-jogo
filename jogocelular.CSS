@@ -1,0 +1,39 @@
+@media (max-width: 428px){
+   .estrutura_da_pagina{
+    width: 270px;
+   }
+    
+   section{
+    width: 270px;
+   }
+
+    button{
+        width: 270px;
+    }
+
+        input{
+            width: 270px;
+        }
+
+        select{
+            width: 270px;
+        }
+
+        .texto{
+            width: 270px;
+        }
+
+        .texto1{
+            width: 270px;
+        }
+
+        .texto2{
+            width: 270px;
+        }
+
+
+
+    main{
+        width: 340px;
+    }
+}

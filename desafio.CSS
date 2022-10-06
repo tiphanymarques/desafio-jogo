@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+
+
+body{
+    background-color: #F2890D;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.logo{
+     color: black;
+     background-color: #1180E7;
+     width: 258px;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top:-59px ;
+    
+   
+}
+
+h1{
+    font-size:70px;
+     font-family: 'Squada One', cursive;
+}
+
+
+
+main{
+  background-color: white;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1084px;
+    height: 645px;
+   
+
+  
+}
+
+
+main img{
+    width: 200px;
+    height: 200px;
+}
+
+.primeiraparte{
+    font-weight: bold;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 18px;
+}
+
+input{
+    width: 350px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.segundaparte{
+    font-weight: bold;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 18px;
+    
+   
+}
+
+select{
+    width: 350px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.primeirobotão{
+    background-color: #1180E7;
+    border: 3px solid #000000;
+    
+    height: 42px;
+    border-radius: 20px;
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.texto{
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+    height: 145px;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.digite_numero{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.quadra_do_numero{
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+}
+
+.segundobotão{
+    background: #F2890D;
+    border: 3px solid #000000;
+
+    height: 42px;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.ultima_parte{
+    width: 350px;
+    height: 103px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+.estrutura_da_pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 1000px;
+
+}
+
+.linha{
+    border: 2px solid #B0A3A3;
+    height: 500px;
+
+}
